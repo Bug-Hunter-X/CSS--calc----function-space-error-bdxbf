@@ -1,0 +1,14 @@
+The correct usage of `calc()` requires spaces around the operators:
+
+```css
+.element {
+  width: calc(100% - 20px);
+  height: calc(50% + 10px);
+}
+
+.another-element {
+  margin: calc(10px / 2);
+}
+```
+
+This will correctly calculate and apply the dimensions and margins.
